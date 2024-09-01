@@ -8,6 +8,12 @@ import call_icon from '../../assets/call_icon.svg'
 
 
 const Contact = () => {
+  // const clearText=()=>{
+  //   var frm = document.getElementsByName('contact-right')[0]; 
+  //   frm.submit(); // Submit 
+  //   frm.reset();  // Reset 
+  //   return false; 
+  // }
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -29,6 +35,10 @@ const Contact = () => {
     if (res.success) {
       alert(res.message);
     }
+    var frm = document.getElementsByName('contact-right')[0]; 
+    frm.submit(); 
+    frm.reset();  
+    return false;
   };
   return (
     <div  id='contact' className='contact'>
@@ -52,14 +62,14 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-        <form onSubmit={onSubmit} className="contact-right">
+        <form onSubmit={onSubmit} className="contact-right" autocomplete="off" name='contact-right'>
            <label htmlFor="">Enter your Name</label>
-           <input type="text" placeholder='Enter your name' name='name' />
+           <input type="text" placeholder='Enter your name' name='name' id='name' required/>
            <label htmlFor="">Enter your Email</label>
-           <input type="email" placeholder='Enter your email' name='email' />
+           <input type="email" placeholder='Enter your email' name='email' id='email'required/>
            <label htmlFor="">Enter your message here</label>
-           <textarea  rows='10' placeholder='Enter your message' name='message' />
-           <button type='submit' className="contact-submit">
+           <textarea  rows='10' placeholder='Enter your message' name='message' id='message'r/>
+           <button type='submit' className="contact-submit" >
             Submit now
            </button>
         </form>
