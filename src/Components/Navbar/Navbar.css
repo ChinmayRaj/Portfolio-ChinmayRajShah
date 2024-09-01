@@ -20,7 +20,7 @@
     transition: 0.5s;
 }
 .nav-menu li:hover{
-    background-color: #3d032c;
+    background-color: #a50676;
     transition: 0.5s;
     transform: scale(1.05);
     font-size: 25px;
