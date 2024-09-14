@@ -1,7 +1,7 @@
 import project1_img from '../assets/creditcard.jpg'
 import project2_img from '../assets/diseasepred.jpg'
 import project3_img from '../assets/leafdisease.avif'
-import project4_img from '../assets/movieapp.jpg'
+import project4_img from '../assets/ecommerce.jpg'
 import project5_img from '../assets/musicplayer.jpg'
 import project6_img from '../assets/foodel2.jpg'
 
@@ -26,9 +26,9 @@ const mywork_data = [
     },
     {
         w_no:4,
-        w_name:"Android Movie Application",
+        w_name:"Online Clothing Store-Enchant",
         w_img:project4_img,
-        w_link:"https://github.com/ChinmayRaj/Movies-Application.git"
+        w_link:"https://github.com/ChinmayRaj/E-Commerce-website.git"
     },
     {
         w_no:5,
