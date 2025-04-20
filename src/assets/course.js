@@ -1,5 +1,5 @@
 import cert1 from '../assets/html.avif';
-import cert3 from '../assets/datascience.jpg';
+import cert3 from '../assets/playwright.avif';
 import cert2 from '../assets/datavisualization.jpg'
 import cert4 from '../assets/node.webp';
 import cert5 from '../assets/ml.jpg';
@@ -15,7 +15,7 @@ const mycourse=[
     },
     {
         c_no:2,
-        c_name:"Data Visualisation Using Python",
+        c_name:"Playwright Automation Testing using Typescript",
         c_img:cert2,
         c_link:"https://drive.google.com/file/d/1pjzNAQSzILe1kLGgTs1qaUIFpRQKfJb9/view?usp=sharing"
     },
