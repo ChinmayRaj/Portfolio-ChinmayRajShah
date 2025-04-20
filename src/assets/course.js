@@ -17,7 +17,7 @@ const mycourse=[
         c_no:2,
         c_name:"Playwright Automation Testing using Typescript",
         c_img:cert2,
-        c_link:"https://drive.google.com/file/d/1pjzNAQSzILe1kLGgTs1qaUIFpRQKfJb9/view?usp=sharing"
+        c_link:"https://drive.google.com/file/d/1jv8amoP1CGcSiiwGY6jm0ZgtVShUrMak/view?usp=sharing"
     },
     {
         c_no:3,
@@ -35,7 +35,7 @@ const mycourse=[
         c_no:5,
         c_name:"Machine Learning A-Z in Python and R",
         c_img:cert5,
-        c_link:"https://drive.google.com/file/d/1e4t-NnV8T6mrBHOxhuJ-yV4E6dmiqlte/view?usp=https://drive.google.com/file/d/1n9jw63Lc9e5RIJ9TGorZ8wk5Ds9K1qM3/view?usp=sharing"
+        c_link:"https://drive.google.com/file/d/1n9jw63Lc9e5RIJ9TGorZ8wk5Ds9K1qM3/view?usp=sharing"
     },
     {
         c_no:6,
