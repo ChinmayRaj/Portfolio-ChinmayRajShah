@@ -12,6 +12,7 @@ const Courses = () => {
       </div>
       <div className="mycourses-container">
        {course.map((course,index)=>{
+       
         return <a href={course.c_link} target='blank'>
           <img src={course.c_img} alt="loading..." key={index} />
           <h3>{course.c_name}</h3>
